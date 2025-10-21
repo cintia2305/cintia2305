@@ -19,12 +19,13 @@
    echo"Resultado da mutltiplicação: $multiplicaação<br>";
    echo"Resultado da divisão: $divisão<br>";
    if($soma > 2){
-    echo"o resultado da soma é maior que 2."}
-    elseif($soma == 2){
-    echo"o resultado da divisão é igual exatamente 2."}
-   
-   else ($soma <2){
-    echo"o resultado da divisão é menor que 2."}
+    echo"o resultado da soma é maior que 2.<br>";
+   }elseif($soma == 2){
+    echo"o resultado da divisão é igual exatamente 2.<br";
+}
+   else {
+    echo"o resultado da divisão é menor que 2.<br>";
+}
    ?>
 
 </body>
